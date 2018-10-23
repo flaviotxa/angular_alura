@@ -1,2 +1,5 @@
-<ap-photo url="https://thumbs.jusbr.com/filters:format(webp)/imgs.jusbr.com/publications/artigos/144922528/images/1412967253.jpeg" description="Leão"></ap-photo>
-<ap-photo url="https://i.ytimg.com/vi/t2bDLabHhd0/maxresdefault.jpg" description="Leoa"></ap-photo>
+<ap-photo 
+  *ngFor="let photo of photos" 
+  [url]="photo.url" 
+  [description] ="photo.description">
+</ap-photo>
