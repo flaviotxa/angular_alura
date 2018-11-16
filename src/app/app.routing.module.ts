@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router'
 
-import { PhotosListComponent } from './photos/photos-list/photos-list.component';
+import { PhotosListComponent } from './photos/photo-list/photos-list.component';
 import { PhotoFormComponent } from './photos/photo-form/photo-form.component';
 import { NotFoundComponent } from './errors/not-found/not-found.component';
 

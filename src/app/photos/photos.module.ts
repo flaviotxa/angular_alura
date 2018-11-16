@@ -3,14 +3,16 @@ import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 
 import { PhotoComponent } from './photo/photo.component';
-import { PhotosListComponent } from './photos-list/photos-list.component';
+import { PhotosListComponent } from './photo-list/photos-list.component';
 import { PhotoFormComponent } from './photo-form/photo-form.component';
+import { PhotosComponent } from './photo-list/photos/photos.component';
 
 @NgModule({
     declarations: [ 
         PhotoComponent, 
         PhotosListComponent, 
-        PhotoFormComponent 
+        PhotoFormComponent, 
+        PhotosComponent 
     ],
     imports: [ 
         HttpClientModule,
