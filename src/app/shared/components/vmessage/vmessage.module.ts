@@ -6,4 +6,5 @@ import { VMessageComponent } from "./vmessage.component";
     exports: [ VMessageComponent ]
 
 })
-export class VMessageModule() { }
+
+export class VMessageModule { }
